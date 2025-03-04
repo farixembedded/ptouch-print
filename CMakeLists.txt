@@ -5,7 +5,6 @@ project(ptouch-print C)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 include(GNUInstallDirs)
-set(CMAKE_INSTALL_PREFIX /usr)
 set(CMAKE_C_STANDARD 11)
 
 # Configure required dependencies
